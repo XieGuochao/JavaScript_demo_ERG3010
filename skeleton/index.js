@@ -91,7 +91,7 @@ function echarts_update_data(data) {
 }
 
 
-// Update a predefined data
+// Update with a pre-defined data
 function echarts_change_data() {
     echarts_update_data([10, 20, 30, 40, 50, 60]);
 }
