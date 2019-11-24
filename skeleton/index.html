@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- import echarts -->
+    <script src="static/echarts.js"></script>
+
+
+
+    <title>JavaScript Demo</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Demo (Skeleton Version)</h1>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>Callback and DOM</h2>
+
+    <div id="message">
+        No Message
+    </div>
+
+    <!-- button trigger warning -->
+    <button onclick="warning()">Warning with alert</button>
+
+    <!-- button trigger warning(true) to have DOM effect -->
+
+
+    <!-- button trigger change_color('red') -->
+
+
+    <br>
+    <br>
+
+    <!-- input with id "color_text" -->
+
+
+    <!-- button trigger change_color() to change the color based on the input -->
+
+
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <h2>ECharts and Fetch</h2>
+
+    <p>ECharts Link: </p>
+    <ul>
+        <li><a href="https://www.echartsjs.com/en/index.html">English Version</a></li>
+        <li><a href="https://www.echartsjs.com/zh/index.html">Chinese Version</a></li>
+    </ul>
+
+    <div id="graphics" style="width: 600px;height:400px;">
+        NO Graphics
+    </div>
+
+
+    <button onclick="echarts_example()">ECharts Example</button>
+
+    <button onclick="echarts_change_data()">ECharts Change Data</button>
+
+
+    <br>
+    <br>
+
+    <button onclick="fetch_data(1)">Fetch Data</button>
+    <button onclick="fetch_data_and_change(1)">Fetch Data And Change</button>
+
+    <br>
+    <br>
+
+    <!-- Input with id "data_input" and type "number" -->
+
+
+    <!-- button trigger fetch_data_and_change() -->
+
+
+    
+    <p>Author: Guochao Xie</p>
+    <p>2019-11-24</p>
+
+    <!-- import our javascript code -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
